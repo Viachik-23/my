@@ -1,0 +1,217 @@
+body{
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 4000px){
+
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: #F0FFFF;
+    }
+
+    .name{
+        color: #5e6673;
+        position: absolute;
+        left: 40px;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 10%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        position: absolute;
+        left: 43%;
+        top: 40%;
+        border: 5px solid grey;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.7;
+    }
+
+    .text{
+        color: #20B2AA;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        height: 450px;
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 1711px){
+
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: #636169;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 10%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        color: white;
+        position: absolute;
+        left: 62%;
+        top: 72%;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.7;
+        font-size: 1.5em;
+    }
+
+    .text{
+        color: #20B2AA;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        height: 450px;
+        width: 450px
+    }
+
+}
+
+@media screen and (max-width: 1283px){
+
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: #F0FFFF;
+    }
+
+    .name{
+        color: #5e6673;
+        position: absolute;
+        left: 40px;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 5%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        color: white;
+        position: absolute;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.7;
+    }
+
+    .text{
+        color: #20B2AA;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        height: 450px;
+        width: 450px
+    }
+
+}
+
+@media screen and (max-width: 1026px){
+
+    body {
+        font-size:  16px;
+        font-family: LabGrotesque, Arial, Helvetica, sans-serif;
+        background-color: #F0FFFF;
+    }
+
+    .name{
+        color: #5e6673;
+        position: absolute;
+        left: 40px;
+    }
+
+    .information{
+        top: 16px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .contact{
+        color: darkorange;
+        border: none;
+        background: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .hello{
+        color: white;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        font-size: 30px;
+        border-radius: 10px;
+        background-color: grey;
+        opacity: 0.8;
+    }
+
+    .text{
+        color: #20B2AA;
+        letter-spacing: 2px;
+    }
+
+    .photo{
+        border-radius: 1000px;
+        border: 5px solid darkorange;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        height: 900px;
+        width: 900px
+    }
+
+}
